@@ -75,4 +75,4 @@ We will start the journey by importing a notebook for labelling anomalous data t
 
 ## Credits
 - Heba El-Shimy for her Watson Studio Enablement repository for Banking industry
-- Nailah Al-Tayyar for her contribution on the screenshots for the model and flow
+- Nailah Al-Tayyar for her contribution in this repository

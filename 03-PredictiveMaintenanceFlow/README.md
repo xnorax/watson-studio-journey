@@ -1,6 +1,6 @@
 # Build and compare models performances using IBM SPSS Modeler
 
-A machine learning flow, which is a graphical representation of a data model, will be created throughout this tutorial  with drag-and-drop tooling from SPSS Modeler. We will use it to prepare data, train and compare between models.
+A machine learning flow, which is a graphical representation of a data model, will be created throughout this tutorial with drag-and-drop tooling from SPSS Modeler. We will use it to prepare data, train and compare between models.
 
 ## Create New Flow
 From your project's **Assets** page, Click **New flow**.
