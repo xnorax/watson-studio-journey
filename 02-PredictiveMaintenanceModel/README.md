@@ -31,7 +31,7 @@ This tutorial will cover a full machine learning workflow starting from creating
 ## Step 2: Add Your Data
 1. Download [sensorTrainingData](https://github.com/xnorax/watson-studio-journey/blob/master/data/sensorTrainingData.csv) file.
 
-2. From the action bar, click the **Find and add data** icon (![icon](https://github.com/xnorax/watson-studio-journey/blob/master/02-PredictiveMaintenanceNotebook/imgs/find_data_icon.png?raw=true)), and drag sensorTrainingData.csv file onto the Load pane.
+2. From the action bar, click the **Find and add data** icon (![icon](![1](https://github.com/xnorax/watson-studio-journey/blob/master/imgs/find_data_icon.png?raw=true))), and drag sensorTrainingData.csv file onto the Load pane.
 
 3. On the **Select data asset** step, select *sensorTrainingData.csv* and click **Next**.  
 

@@ -6,10 +6,7 @@ In this demo, we load data from a local file into R and explore it visually and 
 
 1. Download [sensorData](https://github.com/xnorax/watson-studio-journey/blob/master/data/sensorData.csv) file.
 
-2. From your project's **Assets** page, click the **Find and add data** icon.
-
-    ![1](https://github.com/xnorax/watson-studio-journey/blob/master/01-PredictiveMaintenanceNotebook/imgs/1.jpg?raw=true)
-
+2. From your project's **Assets** page, click the **Find and add data** icon (![icon](https://github.com/xnorax/watson-studio-journey/blob/master/imgs/find_data_icon.png?raw=true)).
 
 3. Click **Load** and then **browse** or drag sensorData.csv file onto the Load pane. You must stay on the page until the load is complete.
 
