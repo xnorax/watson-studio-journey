@@ -3,14 +3,14 @@
 A machine learning flow, which is a graphical representation of a data model, will be created throughout this tutorial with drag-and-drop tooling from SPSS Modeler. We will use it to prepare data, train and compare between models.
 
 ## Steps
-1. [Create New Flow](#Create-New-Flow)
+1. [Create New Flow](#create-new-flow)
 2. [Add Data](#add-data)
 3. [Explore Data](#explore-data)
 4. [Split Data](#split-data)
 5. [Prepare Data](#prepare-data)
-6. [Add Prediction Model](#Add-Prediction-Model)
-7. [Analyze Results](#Analyze-Results)
-8. [Compare Models](#Compare-Models)
+6. [Add Prediction Model](#add-prediction-model)
+7. [Analyze Results](#analyze-results)
+8. [Compare Models](#compare-models)
 
 ## Create New Flow
 From your project's **Assets** page, Click **New flow**.
@@ -75,17 +75,19 @@ From your project's **Assets** page, Click **New flow**.
 
 ## Split Data
 
-  Drag **Partition** node to split the data into training and testing subsets.
+  - Drag **Partition** node to split the data into training and testing subsets.
 
-  ![16](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/16.jpg?raw=true)
+    ![15](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/15.jpg?raw=true)
 
 ## Prepare Data
-Drag **Auto Data Prep** node to automatically identify your data issues and applying fixes.  
-![17](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/17.jpg?raw=true)
+- Drag **Auto Data Prep** node to automatically identify your data issues and applying fixes.  
+
+  ![17](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/17.jpg?raw=true)
 
 ## Explore Data Again
-1. Add another **Data Audit** to check the results of the previous step.  
-![19](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/18.jpg?raw=true)
+1. Add another **Data Audit** to check the results of the previous step.
+
+    ![19](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/18.jpg?raw=true)
 
 2. View the results.  
 ![20](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/19.jpg?raw=true)
@@ -103,7 +105,7 @@ Drag **Auto Data Prep** node to automatically identify your data issues and appl
     - Select all other columns as **Inputs**.
     - Click **Save**.  
 
-      ![23](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/22.jpg?raw=true)
+    ![23](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/22.jpg?raw=true)
 
 3. Let's run the flow.  
 ![24](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/23.jpg?raw=true)

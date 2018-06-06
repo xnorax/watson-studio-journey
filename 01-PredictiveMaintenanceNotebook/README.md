@@ -40,4 +40,8 @@ In this demo, we load data from a local file into R and explore it visually and 
 
       ![8](https://github.com/xnorax/watson-studio-journey/blob/master/01-PredictiveMaintenanceNotebook/imgs/8.jpg?raw=true)
 
+      if you continue to run all the cells you will get information and visualization about the sensors
+
+      ![13](https://github.com/xnorax/watson-studio-journey/blob/master/01-PredictiveMaintenanceNotebook/imgs/13.png?raw=true)
+
       After running the notebook successfully, data will be ready to feed to Watson Machine Learning.

@@ -79,6 +79,9 @@ We will start the journey by importing a notebook for labelling anomalous data t
 
     ![13](https://github.com/xnorax/watson-studio-journey/blob/master/imgs/13.jpg?raw=true)
 
+## Contributers
+- Nailah Al-Tayyar - Developer Advocate @IBM
+
 ## Credits
-- Heba El-Shimy for her Watson Studio Enablement repository for Banking industry
-- Nailah Al-Tayyar for her contribution in this repository
+- [Watson Studio Enablement](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement) for banking use case by Heba El-Shimy
+- [Predictive Industrial Visual Analysis](https://github.com/IBM/Predictive-Industrial-Visual-Analysis) by IBM
