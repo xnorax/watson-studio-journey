@@ -3,12 +3,12 @@
 This tutorial will cover a full machine learning workflow starting from creating a model and ends up with testing a deployed mode.
 
 # Steps
-1. [Create a Model](##Step-1:-Create-a-Model)
-2. [Add Your Data](##Step-2:-Add-Your-Data)
-3. [Train Your Model](##Step-3:-Train-Your-Model)
-4. [Evaluate Your Model](##Step-4:-Evaluate-Your-Model)
-5. [Deploy Your Model](##Step-5:-Deploy-Your-Model)
-6. [Test Your Model](##Step-6:-Test-Your-Model)
+1. [Create a Model](#Step-1-Create-a-Model)
+2. [Add Your Data](#step-2-add-your-data)
+3. [Train Your Model](#Step-3-Train-Your-Model)
+4. [Evaluate Your Model](#Step-4-Evaluate-Your-Model)
+5. [Deploy Your Model](#Step-5-Deploy-Your-Model)
+6. [Test Your Model](#Step-6-Test-Your-Model)
 
 
 ## Step 1: Create a Model

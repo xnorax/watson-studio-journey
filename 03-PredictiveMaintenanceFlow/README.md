@@ -2,6 +2,16 @@
 
 A machine learning flow, which is a graphical representation of a data model, will be created throughout this tutorial with drag-and-drop tooling from SPSS Modeler. We will use it to prepare data, train and compare between models.
 
+## Steps
+1. [Create New Flow](#Create-New-Flow)
+2. [Add Data](#add-data)
+3. [Explore Data](#explore-data)
+4. [Split Data](#split-data)
+5. [Prepare Data](#prepare-data)
+6. [Add Prediction Model](#Add-Prediction-Model)
+7. [Analyze Results](#Analyze-Results)
+8. [Compare Models](#Compare-Models)
+
 ## Create New Flow
 From your project's **Assets** page, Click **New flow**.
 
@@ -14,7 +24,7 @@ From your project's **Assets** page, Click **New flow**.
 
     ![2](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/2.jpg?raw=true)
 
-## Adding Data
+## Add Data
 1. From the **Flow Editor** toolbar, click the Open Palette icon(![icon](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/open_palette.png?raw=true)).
 2. Add a **Data Asset** node from the *Import* category in the palette.
 
@@ -51,32 +61,30 @@ From your project's **Assets** page, Click **New flow**.
 
     ![12](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/11.jpg?raw=true)
 
-5. In the right-side panel, under the **Outputs** tab, let's select the most recent output (most recent is always on top) to view the results of running the flow so far.  
+5. In the right-side panel, under the **Outputs** tab, let's select the most recent output.
 
     ![12](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/12.jpg?raw=true)
 
-6. We get an idea about some statistics of the data and the distribution of the features. We find that the data needs some kind of normalization.  
+6. We will get a summary statistics and overview of our data. Based on the result, the data needs some kind of normalization.  
 
     ![13](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/13.jpg?raw=true)
 
-7. Let's go back to our Modeler and continue working there.  
+7. Go back to the flow canvas for the next step.
 
     ![14](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/14.jpg?raw=true)
 
 ## Split Data
-1. Drag **Partition** node to split the data into separate training and testing subsets.
 
-    ![16](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/15.jpg?raw=true)
+  Drag **Partition** node to split the data into training and testing subsets.
 
-2. Double-clicking on the **Partition** node to explore its properties. We'll leave everything as it is.  
-![17](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/16.jpg?raw=true)
+  ![16](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/16.jpg?raw=true)
 
 ## Prepare Data
-We'll add **Auto Data Prep** to automatically find issues in our dataset and fix it.  
-![18](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/17.jpg?raw=true)
+Drag **Auto Data Prep** node to automatically identify your data issues and applying fixes.  
+![17](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/17.jpg?raw=true)
 
 ## Explore Data Again
-1. We'll do another **Data Audit** to check the results of the previous step.  
+1. Add another **Data Audit** to check the results of the previous step.  
 ![19](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/18.jpg?raw=true)
 
 2. View the results.  
@@ -86,11 +94,16 @@ We'll add **Auto Data Prep** to automatically find issues in our dataset and fix
 ![21](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/20.jpg?raw=true)
 
 ## Add Prediction Model
-1. Now let's select a model, let's try **C&R Tree**.  
+1. Drag **C&R Tree** node  to generate a decision tree that can be used for Classification & Regression.  
 ![22](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/21.jpg?raw=true)
 
-2. Double-clicking on the **C&R** node to change its properties. Check **Use custom field roles**, then select `Target_transformed` as the target(labels) column and select all other columns as **Inputs**. Click **Save**.  
-![23](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/22.jpg?raw=true)
+2. Double-click on **C&R** node to change its properties.
+    - Check **Use custom field roles**
+    - select *Target_transformed* in the **Target** field.
+    - Select all other columns as **Inputs**.
+    - Click **Save**.  
+
+      ![23](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/22.jpg?raw=true)
 
 3. Let's run the flow.  
 ![24](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/23.jpg?raw=true)
@@ -98,11 +111,11 @@ We'll add **Auto Data Prep** to automatically find issues in our dataset and fix
 4. Wait for the process to finish. It may take a few minutes.  
 ![25](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/24.jpg?raw=true)
 
-5. After the model runs, it will produce a new node that holds information about the performance of the model.  
+5. After the model runs, it will produce a new node that holds information about model performance.  
 ![26](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/25.jpg?raw=true)
 
 ## Analyze Results
-1. Let's add an **Analysis** node to peek into the model results node.  
+1. Drag **Analysis** node to the canvas for getting information about the model itself.
 ![27](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/26.jpg?raw=true)
 
 2. Connect the nodes.  
@@ -111,7 +124,7 @@ We'll add **Auto Data Prep** to automatically find issues in our dataset and fix
 3. View the output.  
 ![29](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/27.jpg?raw=true)
 
-4. Information about how our model performed.  
+4. Information about C&R model performance on our data.  
 ![30](https://github.com/xnorax/watson-studio-journey/blob/master/03-PredictiveMaintenanceFlow/imgs/28.jpg?raw=true)
 
 ## Compare Models
@@ -153,3 +166,17 @@ We'll add **Auto Data Prep** to automatically find issues in our dataset and fix
 
 
 You can easily iterate through these steps and do some tweaks in the configuration options of each step/node to achieve better accuracy.
+
+## Summary
+Now you know how to use the following SPSS Modeler nodes:
+##### Import nodes
+  Data Asset,
+  Partition
+##### Field Operations
+Auto Data Prep
+##### Modeling
+C&R Regression, LSVM
+##### Output nodes
+Data Audit, Analysis
+
+Look into [documentation](https://datascience.ibm.com/docs/content/analyze-data/ml-canvas-spss.html) to learn more about available nodes and their uses.

@@ -15,6 +15,12 @@ We will start the journey by importing a notebook for labelling anomalous data t
 - An IBM Cloud Object Storage instance
 - An IBM Watson Machine Learning instance
 
+## Steps
+- [Step 1: Create Object Storage Instance](#step-1-create-object-storage-instance)
+- [Step 2: Create Machine Learning Instance](#step-2-create-machine-learning-instance)
+- [Step 3: Create Watson Studio Instance](#step-3-create-watson-studio-instance)
+- [Let's Get Started](#lets-get-started)
+
 ### Step 1: Create Object Storage Instance
 - from the IBM Cloud catalog, select **Object Storage**.  
 
