@@ -5,48 +5,55 @@ Analytics dashboard is a tool to build visualizations of your analytics results,
 Click [here](https://dataplatform.ibm.com/dashboards/55de357a-e905-4850-80aa-2260dc13be46/view/4503e47a20bf6fe24ad5c8e4079b7e052b3e2608b7bb8a52d5d07b495a607197f03c4796c82e4c5b8c405631f0e4110fcf) to check out the Live Infographic that has been created in this tutorial.
 
 ## Create a Dashboard
-1. From Watson Studio's main dashboard, select **New Dashboard** from Dashboards panel.  
-![1](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/1.png)
+1. From Watson Studio's main dashboard, select **New dashboard**.
 
-2. Type a name for your dashboard. Make sure you have a `dashboard analytics` service instance running and selected, if not you'll be prompted to create one then reload to select it. Click **Save**.  
+    ![1](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/1.png)
+
+- Type a name for your dashboard
+- Select a **Congnos Dashboard Embedded Service** service instance. If you don't have one, you'll be prompted to create one then click reload to select it.
+- Click **Save**.  
 ![2](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/2.png)
 
-3. Select the template you wish to create, here I used an Infographic template.  
+3. Select the template you wish to create, here I used an **Infographic** template.  
 ![3](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/3.png)
 
 4. Select the page layout and click **Ok**.  
 ![4](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/4.png)
 
 ## Select Your Data Source
-1. Select a source for the data that will be used.  
+1. Click on **Selected sources**.  
 ![5](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/5.png)
 
-2. We'll select our sensors data and click **Select**.   
-![6](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/6.png)
+2. We'll select **sensorData.csv** then click **Select**.
 
-3. Click on the dataset to expand it.We now see all the rows.   
+    ![6](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/6.png)
+
+3. Click on the dataset to see all rows on the left panel.   
 ![7](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/7.png)
 
 ## Start Visualization
-1. Let's select columns for a visualization. You can select multiple columns by pressing `Ctrl` or `Cmd` while selecting the columns. Here, I selected `Tempreture` and `Avarage daily outcome`. Drag and drop your selected columns to where you want to place them on the infographic template.  
-![8](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/8.png)
+1. Select **Tempreture** and **avg_daily_output** columns and drag it where you want to place the visualization on the infographic template.
 
-2. A visualization will be automatically picked for you, based on the data in the columns you selected. Here a **Columns Chart** was picked.  
-![9](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/9.png)
+    *You can select multiple columns by pressing `Ctrl` while selecting the columns.*   
+    ![8](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/8.png)
 
-3. If you need to edit the visualization, click on the crossing arrows on top of the visualization and a side panel will appear. Click on the visualization image as shown below.  
+2. **Columns Chart** type will be automatically chosen based on the columns we selected.
+
+    ![9](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/9.png)
+
+3. If you need to edit the visualization, click on the crossing arrows on top of the visualization and then click on the visualization image from the side panel.  
 ![10](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/10.png)
 
-4. To select another visualization method, select one from the listed options. Here, I wanted more customization for the current visualization so click on **More**.  
+4. To select another visualization method, select one from the listed options. Here, I click **More** for more options.  
 ![11](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/11.png)
 
-5. Confirm the Bar Chart option to proceed.  
+5. Confirm the **Bar Chart** option to proceed.  
 ![12](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/12.png)
 
-6. Now for making a better UI, let's choose a way to color the columns. Here, I picked coloring the columns according to the distinct of temperature we have, so I inserted `temperature` column into the color property.  
+6. Insert **temperature** into the color property.  
 ![13](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/13.png)
 
-6. Let's enter a title for our visualization. Choose the multimedia option from the left side-panel.  
+6. Enter a title for your visualization. Choose the multimedia option from the left side-panel.  
 ![14](https://github.com/xnorax/watson-studio-journey/blob/master/05-AnalyticsDashboard/imgs/14.png)
 
 7. Select the text option and drag it to where you want on the infographic template.  

@@ -5,7 +5,7 @@ Watson Visual Recognition service on IBM Cloud enables you to tag, classify and 
 ## Steps
 - [Step 1: Create Watson Visual Recognition Service](#step-1-create-watson-visual-recognition-service)
 - [Step 2: Create Visual Recognition Model](#step-2-create-visual-recognition-model)
-- [Step 3: Train Your Model](#step-3-train-your-modell)
+- [Step 3: Train Your Model](#step-3-train-your-model)
 - [Step 4: Test Your Model](#step-4-test-your-model)
 
 ### Step 1: Create Watson Visual Recognition Service
