@@ -2,7 +2,7 @@
 
 Analytics dashboard is a tool to build visualizations of your analytics results, communicate the insights that you've discovered and easily share the dashboard with others.
 
-Click [here](https://dataplatform.ibm.com/dashboards/55de357a-e905-4850-80aa-2260dc13be46/view/4503e47a20bf6fe24ad5c8e4079b7e052b3e2608b7bb8a52d5d07b495a607197f03c4796c82e4c5b8c405631f0e4110fcf) to check out the Live Infographic that has been created in this tutorial.
+Click [here](https://dataplatform.ibm.com/dashboards/41a5bede-1e9d-4159-aa44-62e52715e6aa/view/6332c220259d29f062c7d4e407cc2e002f37775eb2bb850bd6847b495e687697f3384791c8274e528b170731f4e51551ca) to check out the Live Infographic that has been created in this tutorial.
 
 ## Create a Dashboard
 1. From Watson Studio's main dashboard, select **New dashboard**.
